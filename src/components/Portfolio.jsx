@@ -1,49 +1,49 @@
 import React from 'react'
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
-import installNode from "../assets/portfolio/installNode.jpg"
-import navbar from "../assets/portfolio/navbar.jpg"
-import reactParallax from "../assets/portfolio/reactParallax.jpg"
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
-import reactWeather from "../assets/portfolio/reactWeather.jpg"
+import spotify from "../assets/portfolio/Spotify.png"
+import countries from "../assets/portfolio/contries.png"
+import todo from "../assets/portfolio/todo.png"
+import heyu from "../assets/portfolio/heyu.png"
+import priva from "../assets/portfolio/priva.png"
+import admin from "../assets/portfolio/Admin.png"
 
 function Portfolio() {
 
    const portfolios = [
     {
         id:1,
-        src: arrayDestruct,
+        src: spotify,
         linkDemo: "https://acekinci.github.io/spotify-app/",
         linkCode: "https://github.com/acekinci/spotify-app"
     },
     {
         id:2,
-        src: installNode,
+        src: countries,
         linkDemo: "https://acekinci.github.io/countries-api/",
         linkCode: "https://github.com/acekinci/countries-api"
     },
     {
         id:3,
-        src: navbar,
-        linkDemo: "https://acekinci.github.io/countries-api/",
-        linkCode: "https://github.com/acekinci/countries-api"
+        src: todo,
+        linkDemo: "https://acekinci.github.io/to-do-list-2/",
+        linkCode: "https://github.com/acekinci/to-do-list-2"
     },
     {
         id:4,
-        src: reactParallax,
-        linkDemo: "https://acekinci.github.io/countries-api/",
-        linkCode: "https://github.com/acekinci/countries-api"
+        src: heyu,
+        linkDemo: "https://acekinci.github.io/Heyu/",
+        linkCode: "https://github.com/acekinci/Heyu"
     },
     {
         id:5,
-        src: reactSmooth,
-        linkDemo: "https://acekinci.github.io/countries-api/",
-        linkCode: "https://github.com/acekinci/countries-api"
+        src: priva,
+        linkDemo: "https://acekinci.github.io/Priva/",
+        linkCode: "https://github.com/acekinci/Priva"
     },
     {
         id:6,
-        src: reactWeather,
-        linkDemo: "https://acekinci.github.io/countries-api/",
-        linkCode: "https://github.com/acekinci/countries-api"
+        src: admin,
+        linkDemo: "https://acekinci.github.io/Admin-page/",
+        linkCode: "https://github.com/acekinci/Admin-page"
     },
    ]
 
