@@ -11,27 +11,39 @@ function Portfolio() {
    const portfolios = [
     {
         id:1,
-        src: arrayDestruct
+        src: arrayDestruct,
+        linkDemo: "https://acekinci.github.io/spotify-app/",
+        linkCode: "https://github.com/acekinci/spotify-app"
     },
     {
         id:2,
-        src: installNode
+        src: installNode,
+        linkDemo: "https://acekinci.github.io/countries-api/",
+        linkCode: "https://github.com/acekinci/countries-api"
     },
     {
         id:3,
-        src: navbar
+        src: navbar,
+        linkDemo: "https://acekinci.github.io/countries-api/",
+        linkCode: "https://github.com/acekinci/countries-api"
     },
     {
         id:4,
-        src: reactParallax
+        src: reactParallax,
+        linkDemo: "https://acekinci.github.io/countries-api/",
+        linkCode: "https://github.com/acekinci/countries-api"
     },
     {
         id:5,
-        src: reactSmooth
+        src: reactSmooth,
+        linkDemo: "https://acekinci.github.io/countries-api/",
+        linkCode: "https://github.com/acekinci/countries-api"
     },
     {
         id:6,
-        src: reactWeather
+        src: reactWeather,
+        linkDemo: "https://acekinci.github.io/countries-api/",
+        linkCode: "https://github.com/acekinci/countries-api"
     },
    ]
 
@@ -47,12 +59,12 @@ function Portfolio() {
       
        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
        {
-        portfolios.map(({id, src}) => (
+        portfolios.map(({id, src,linkDemo,linkCode}) => (
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
              <img src={src} alt="" className='rounded-md duration-300 hover:scale-105' />
              <div className='flex items-center justify-center'>
-                 <button className='w-1/2 px-6 py-3 m-4 hover:scale-105'>Demo</button>
-                 <button className='w-1/2 px-6 py-3 m-4 hover:scale-105'>Code</button>
+                 <button className='w-1/2 px-6 py-3 m-4 hover:scale-105'><a href={linkDemo}>Demo</a></button>
+                 <button className='w-1/2 px-6 py-3 m-4 hover:scale-105'><a href={linkCode}>Code</a></button>
              </div>
             </div>
         ))
