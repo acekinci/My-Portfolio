@@ -9,14 +9,21 @@ function About() {
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quia aliquid ullam, modi consequuntur sequi a consequatur. Quis tenetur doloremque sunt odio, deserunt, dignissimos sit aperiam asperiores harum provident laborum accusantium officiis labore ea minus dolores quia nisi ut nesciunt. Deserunt illo optio molestiae consequatur numquam eos in error commodi!
+            My name is Ahmet, I was born in İstanbul in 2003. I have been working as a intern front-end developer for 1 years and I
+            used, a lot of modern technologies during this time, such as HTML5, CSS3, Bootstrap, Tailwind Css, SCSS and LESS.
+            Nowadays, I'm trying to improve my Javascript skills and learning about Loops, Arrays, Objects etc. And also I’m
+            interested in React. Besides, I’m a quick learner and researcher, I know that I can find any information with google.
             </p>
 
             <br />
+            <br />
+            <br />
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit reiciendis aperiam cumque atque non et quia vero nulla facere nam eum, ipsam porro minima delectus necessitatibus modi facilis tempora quo voluptatibus. Sunt praesentium similique facilis labore a beatae? Recusandae laboriosam vel vitae modi commodi minima excepturi ipsum et veniam.
-            </p>
+            Selamlar. 1 yılı aşkın süredir frontend alanında kendimi geliştirmekteyim. Bu süreçte HTML5, CSS3,  Responsive tasarım, Tailwind Css, SCSS,
+             Bootstrap5’te iyi bir yol katettiğimi düşünüyorum. şu anda ise Javascript ve React öğrenmeye yoğun bir şekilde gayret etmekteyim. 
+             Daha önce bir ajansta çalışma fırsatım oldu fakat çok fazla iş gelmediğinden yeteri kadar profesyonel tecrübe edinemedim.
+             Bu sebeple kendimi daha çok geliştirebileceğim aynı zamanda katkı da sağlayabileceğim bir iş arayışım mevcut. </p>
              
         </div>
     </div>
